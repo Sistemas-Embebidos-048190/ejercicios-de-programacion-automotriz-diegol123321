@@ -9,8 +9,12 @@
 float convert_adc_to_celsius(uint16_t adc_value)
 {
   // Modificar esta funcion
-  return 0;
+  return (adc_value / 1023.0f) * 190.0f - 40.0f;
 }
+    
+    
+
+
 
 
 // ========================================= No tocar ================================================= //
