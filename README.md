@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/JQNgAmP4)
 # Ejercicios de Programación en C para Sistemas Embebidos Automotrices
 
 ¡Bienvenido! Este repositorio contiene una colección de ejercicios prácticos de programación diseñados para aplicar los fundamentos del lenguaje C a escenarios realistas del mundo de los **sistemas embebidos en la industria automotriz**.

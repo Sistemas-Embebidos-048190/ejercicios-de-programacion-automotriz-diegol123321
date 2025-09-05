@@ -20,11 +20,12 @@
 uint8_t turn_on_lights(uint8_t current_state, uint8_t light_mask)
 {
   // Modificar aqui
-  return 0;
+  return current_state | light_mask;
+  
 }
 
 
-// ========================================= No tocar ================================================= //
+// No tocar
 int main()
 {
     uint8_t register_state = LOW_BEAMS_MASK | REAR_FOG_MASK; // 0b00001001
@@ -34,5 +35,5 @@ int main()
     // Test 1:
     uint8_t new_state = turn_on_lights(register_state, mask);
     printf("%d\n", new_state);
+
 }
-// ========================================= No tocar ================================================= //

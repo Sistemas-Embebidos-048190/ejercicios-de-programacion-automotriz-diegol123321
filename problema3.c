@@ -20,7 +20,7 @@
 bool are_lights_on(uint8_t current_state, uint8_t light_mask)
 {
   // Modificar aqui
-  return 0;
+  return (current_state & light_mask) != 0;
 }
 
 
